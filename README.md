@@ -2,7 +2,9 @@
 
 C++ is a powerful general-purpose programming language used in systems programming, game development, high-performance applications, and more. Below are key topics to master in C++.
 
-![C-2 Image](C-2.avif)
+<div style="text-align: center;">
+    <img src="C-2.avif" alt="C-2 Image" />
+</div>
 
 ## 1. **Basic Syntax and Structure**
    Understanding the basic structure of a C++ program, including headers, main function, and statements, is the foundation.
