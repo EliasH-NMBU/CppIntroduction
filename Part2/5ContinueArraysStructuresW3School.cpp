@@ -51,7 +51,33 @@ main() {
         cout << i << endl;
     }
 
+    // Loop Through an Array with sizeof()
+    cout << "Loop Through an Array with sizeof()" << endl;
+    int myNumbers3[5] = {1, 2, 3, 4, 5};
 
+    for (int i = 0; i < sizeof(myNumbers3)/sizeof(myNumbers3[0]); i++) {
+        cout << myNumbers3[i] << endl;
+    }
+
+    // Multi-Dimensional Arrays
+    cout << "Multi-Dimensional Arrays" << endl;
+    int myNumbers4[2][3] = {
+        {1, 2, 3},
+        {4, 5, 6}
+    };
+
+    for (int i = 0; i < 2; i++) { // 2 rows
+        for (int j = 0; j < 3; j++) { // 3 columns
+            cout << myNumbers4[i][j] << endl;
+        }
+    }
+
+    string letters[2][4] = {
+    { "A", "B", "C", "D" },
+    { "E", "F", "G", "H" }
+    };
+
+    cout << letters[0][2];  // Outputs "C" 
 
     return 0;
 
